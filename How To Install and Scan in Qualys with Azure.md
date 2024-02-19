@@ -21,19 +21,19 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 - Click on the Scans tab.
 - Click on the Appliances sub-tab.
 
-![Q 2.3.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_2.3.png)
+![Q 2.3.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_2.3.png)
 
 - Click on the New button.
 - Click on Scanner Appliance.
 
-![Q 11.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_11.png)
+![Q 11.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_11.png)
 
 - When you reach this page with your Personalization Code, DO NOT close or go to the next page since you need this code.
 - Open up Azure on a new tab.
 
 # 2. Creating and Connecting the Qualys VM in Azure to Qualys
 
-![Q 9.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_9.png)
+![Q 9.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_9.png)
 
 - In Azure go to the Marketplace.
 - In the Marketplace search bar type in ‘qualys virtual scanner appliance’.
@@ -42,24 +42,24 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 - Get the Personalization Code from Qualys and put it in the Azure Perscode text box and continue creating the VM.
 - When finished, head back into Qualys.
 
-![Q 12.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_12.png)
+![Q 12.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_12.png)
 
 - On the Personalization Code page, scroll down and press next until you have reached the same page you see above.
 - Click on the Start Wizard button.
 
-![Q 13.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_13.png)
+![Q 13.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_13.png)
 
 - Name the Virtual Scanner.
 - For the Virtualization Platform, we want to choose Microsoft Azure which you can select with the dropdown arrow.
 - When finish click next.
 
-![Q 14.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_14.png)
+![Q 14.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_14.png)
 
 - When you reach this page you see above, double check that you finish creating the Qualys VM in Azure and the Perscode is inserted.
 - This is the last chance to finish the VM.
 - When finish scroll down and click next.
 
-![Q 15.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_15.png)
+![Q 15.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_15.png)
 
 - When you reach this page you see above, you can safely click done even if it's not finish.
 - You can check the status at the Appliances sub-tab.
@@ -67,13 +67,13 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 
 # 3. Scanning in Qualys
 
-![Q 3.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_3.png)
+![Q 3.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_3.png)
 
 - Click on the Scans sub-tab.
 - Click on the New drop-down button.
 - Click on the Scan button.
 
-![Q 4.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_4.png)
+![Q 4.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_4.png)
 
 - Name the Scan on the title text box.
 - On Scanner Appliance select the Virtual Scanner you created and named in the previous steps.
@@ -81,19 +81,19 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 - BE AWARE, to have a successful scan make sure the VM is turned on.
 - When finished click Launch.
 
-![Q 5.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_5.png)
+![Q 5.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_5.png)
 
 - If this is your first time adding the private IP address(es), this page you see above will pop up.
 - Click on Add.
 
-![Q 6.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_6.png)
+![Q 6.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_6.png)
 
 - This page you see above will pop up.
 - The Status shows the progress of the Scan.
 - The three main statuses are Queue, Running, and Finish.
 - You can safely close this page and head back to the Scans subpage.
 
-![Q 7.1.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_7.1.png)
+![Q 7.1.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_7.1.png)
 
 - In this page you can see the Status Icons on the left side.
 - The Status of the scans is on the right side.
@@ -101,9 +101,9 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 - The View Results will appear when the Scan is finish.
 - When the scan is finish, click on the machine scan and click on View Results.
 
-![Q 8.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_8.png)
+![Q 8.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_8.png)
 
-![Screenshot 2024-02-14 174310.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Screenshot_2024-02-14_174310.png)
+![Screenshot 2024-02-14 174310.png](https://github.com/guzmanjoshua/Pictures/blob/main/Screenshot_2024-02-14_174310.png)
 
 - In my scan of my Windows VM, I have a summary of 45 vulnerabilities with an average security risk of 3.0.
 - I have 6 vulnerabilities that have a severity level of 2 and 6 other vulnerabilities that have a severity level of 3.
@@ -113,14 +113,14 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 
 # 4. Authenticated Scans with Qualys
 
-![Q 16.1.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_16.1.png)
+![Q 16.1.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_16.1.png)
 
 - Go to the Authentication sub-tab.
 - Click on the new drop-down button.
 - Click on the Operating System drop-down button.
 - Click on the appropriate OS, for my case I am choosing the Windows OS.
 
-![Q 17.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_17.png)
+![Q 17.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_17.png)
 
 - The default title will be the OS you chose.
 - In Login Credentials select Local for Windows Authentication.
@@ -128,14 +128,14 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 - Select both NTLMv2 and NTLMv1.
 - Select IPs from the left list when finish.
 
-![Screenshot 2024-02-14 172617.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Screenshot_2024-02-14_172617.png)
+![Screenshot 2024-02-14 172617.png](https://github.com/guzmanjoshua/Pictures/blob/main/Screenshot_2024-02-14_172617.png)
 
 - Type the private IPs from your VM that matches your OS.
 - Select the Save button when finish.
 
-![Q 3.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_3.png)
+![Q 3.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_3.png)
 
-![Q 4.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_4.png)
+![Q 4.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_4.png)
 
 - Repeat the same scanning steps for the authenticated VM.
 - The only difference is to name the title with ‘Authenticated’ to distinguish from the unauthenticated scan.
@@ -143,9 +143,9 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 - When done press Launch.
 - As the same as the previous steps, when the scan is done click on View Results.
 
-![Screenshot 2024-02-14 174411.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Screenshot_2024-02-14_174411.png)
+![Screenshot 2024-02-14 174411.png](https://github.com/guzmanjoshua/Pictures/blob/main/Screenshot_2024-02-14_174411.png)
 
-![Screenshot 2024-02-14 174442.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Screenshot_2024-02-14_174442.png)
+![Screenshot 2024-02-14 174442.png](https://github.com/guzmanjoshua/Pictures/blob/main/Screenshot_2024-02-14_174442.png)
 
 - In my scan of my Authenticated Windows VM, I have a summary of 310 vulnerabilities with an average security risk of 5.0.
 - I have 9 vulnerabilities that have a severity level of 2, 34 vulnerabilities that have a severity level of 3, 45 vulnerabilities that have a severity level of 4, and 13 vulnerabilities that have a severity level of 5.
