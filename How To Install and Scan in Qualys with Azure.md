@@ -14,7 +14,7 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 
 # 1. Getting Qualys Personalization Code
 
-![Q 1.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_1.png)
+![Q 1.png](https://github.com/guzmanjoshua/Pictures/blob/main/Q_1.png)
 
 - Log into Qualys.
 - When logged into Qualys, make sure you are in the Vulnerability Management dashboard, you can check in the top left of the screen.
