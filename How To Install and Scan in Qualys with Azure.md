@@ -22,7 +22,6 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 <img src="Qualys Folder Pics/Q 1.png">
 
 Qualys Code: **STEP 1**
-</br>
 <br/>
 
 - Click on the New button.
