@@ -23,7 +23,7 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 
 Qualys Code: **STEP 1**
 
-
+<br/>
 
 - Click on the New button.
 - Click on Scanner Appliance.
