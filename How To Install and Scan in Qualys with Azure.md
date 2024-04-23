@@ -23,6 +23,7 @@ Qualys Code: **STEP 1**
 <img src="Qualys Folder Pics/Q 1.png">
 
 <br/>
+
 Qualys Code: **STEP 2**
 - Click on the New button.
 - Click on Scanner Appliance.
