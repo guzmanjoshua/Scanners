@@ -20,6 +20,7 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 - Click on the Appliances sub-tab.
 
 <img src="Qualys Folder Pics/Q 1.png">
+
 Qualys Code: **STEP 1**
 
 - Click on the New button.
