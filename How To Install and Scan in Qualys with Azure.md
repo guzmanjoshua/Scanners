@@ -169,7 +169,7 @@ Qualys Authentication Scan: **STEP 5**
 
 <img src="Qualys Folder Pics/Q 19.png">
 
-<img src="Qualys Folder Pics/Q 20.png">
+<img src="Qualys Folder Pics/Q 21.png">
 
 ### **Conclusion: Authenticated vs. Unauthenticated Scans**
 
