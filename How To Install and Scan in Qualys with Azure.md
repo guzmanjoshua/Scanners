@@ -14,6 +14,7 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 
 # Section 1 - Getting Qualys Personalization Code
 
+Qualys Code: **STEP 1**
 - Log into Qualys.
 - When logged into Qualys, make sure you are in the Vulnerability Management dashboard, you can check in the top left of the screen.
 - Click on the Scans tab.
@@ -21,14 +22,11 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 
 <img src="Qualys Folder Pics/Q 1.png">
 
-Qualys Code: **STEP 1**
-
+Qualys Code: **STEP 2**
 - Click on the New button.
 - Click on Scanner Appliance.
 
 <img src="Qualys Folder Pics/Q 2.png">
-
-Qualys Code: **STEP 2**
 
 - When you reach this page with your Personalization Code, DO NOT close or go to the next page since you need this code.
 - Open up Azure on a new tab.
