@@ -22,23 +22,21 @@ Qualys Code: **STEP 1**
 
 <img src="Qualys Folder Pics/Q 1.png">
 
-<br/>
-
 Qualys Code: **STEP 2**
 - Click on the New button.
 - Click on Scanner Appliance.
 
 <img src="Qualys Folder Pics/Q 2.png">
 
+Qualys Code: **STEP 3**
 - When you reach this page with your Personalization Code, DO NOT close or go to the next page since you need this code.
 - Open up Azure on a new tab.
 
 <img src="Qualys Folder Pics/Q 3.png">
 
-Qualys Code: **STEP 3**
-
 # Section 2 - Creating and Connecting the Qualys VM in Azure to Qualys
 
+Qualys VM: **STEP 1**
 - In Azure go to the Marketplace.
 - In the Marketplace search bar type in ‘qualys virtual scanner appliance’.
 - Once ‘Qualys Virtual Scanner Appliance’ appears press Create.
@@ -48,49 +46,43 @@ Qualys Code: **STEP 3**
 
 <img src="Qualys Folder Pics/Q 4.png">
 
-Qualys VM: **STEP 1**
-
+Qualys VM: **STEP 2**
 - On the Personalization Code page, scroll down and press next until you have reached the same page you see above.
 - Click on the Start Wizard button.
 
 <img src="Qualys Folder Pics/Q 5.png">
 
-Qualys VM: **STEP 2**
-
+Qualys VM: **STEP 3**
 - Name the Virtual Scanner.
 - For the Virtualization Platform, we want to choose Microsoft Azure which you can select with the dropdown arrow.
 - When finish click next.
 
 <img src="Qualys Folder Pics/Q 6.png">
 
-Qualys VM: **STEP 3**
-
+Qualys VM: **STEP 4**
 - When you reach this page you see above, double check that you finish creating the Qualys VM in Azure and the Perscode is inserted.
 - This is the last chance to finish the VM.
 - When finish scroll down and click next.
 
 <img src="Qualys Folder Pics/Q 7.png">
 
-Qualys VM: **STEP 4**
-
+Qualys VM: **STEP 5**
 - When you reach this page you see above, you can safely click done even if it's not finish.
 - You can check the status at the Appliances sub-tab.
 - Once finish move on to the next step.
 
 <img src="Qualys Folder Pics/Q 8.png">
 
-Qualys VM: **STEP 5**
-
 # Section 3 - Scanning in Qualys
 
+Qualys Scan: **STEP 1**
 - Click on the Scans sub-tab.
 - Click on the New drop-down button.
 - Click on the Scan button.
 
 <img src="Qualys Folder Pics/Q 9.png">
 
-Qualys Scan: **STEP 1**
-
+Qualys Scan: **STEP 2**
 - Name the Scan on the title text box.
 - On Scanner Appliance select the Virtual Scanner you created and named in the previous steps.
 - For the IPv4 Addresses, type the machine(s) private address you want to scan.
@@ -99,15 +91,13 @@ Qualys Scan: **STEP 1**
 
 <img src="Qualys Folder Pics/Q 10.png">
 
-Qualys Scan: **STEP 2**
-
+Qualys Scan: **STEP 3**
 - If this is your first time adding the private IP address(es), this page you see above will pop up.
 - Click on Add.
 
 <img src="Qualys Folder Pics/Q 11.png">
 
-Qualys Scan: **STEP 3**
-
+Qualys Scan: **STEP 4**
 - This page you see above will pop up.
 - The Status shows the progress of the Scan.
 - The three main statuses are Queue, Running, and Finish.
@@ -115,8 +105,7 @@ Qualys Scan: **STEP 3**
 
 <img src="Qualys Folder Pics/Q 12.png">
 
-Qualys Scan: **STEP 4**
-
+Qualys Scan: **STEP 5**
 - In this page you can see the Status Icons on the left side.
 - The Status of the scans is on the right side.
 - On the bottom of the screen the View Summary will bring you back to the Scan Status page, which is the page we were before this.
@@ -125,8 +114,7 @@ Qualys Scan: **STEP 4**
 
 <img src="Qualys Folder Pics/Q 13.png">
 
-Qualys Scan: **STEP 5**
-
+Qualys Scan: **STEP 6**
 - In my scan of my Windows VM, I have a summary of 45 vulnerabilities with an average security risk of 3.0.
 - I have 6 vulnerabilities that have a severity level of 2 and 6 other vulnerabilities that have a severity level of 3.
 - The Windows OS was detected but with a vague version, with 5 services detected.
@@ -137,10 +125,9 @@ Qualys Scan: **STEP 5**
 
 <img src="Qualys Folder Pics/Q 15.png">
 
-Qualys Scan: **STEP 6**
-
 # Section 4 - Authenticated Scans with Qualys
 
+Qualys Authentication Scan: **STEP 1**
 - Go to the Authentication sub-tab.
 - Click on the new drop-down button.
 - Click on the Operating System drop-down button.
@@ -148,8 +135,7 @@ Qualys Scan: **STEP 6**
 
 <img src="Qualys Folder Pics/Q 16.png">
 
-Qualys Authentication Scan: **STEP 1**
-
+Qualys Authentication Scan: **STEP 2**
 - The default title will be the OS you chose.
 - In Login Credentials select Local for Windows Authentication.
 - Select Basic authentication for Login and enter in the Username and Password from your Windows admin credentials.
@@ -158,15 +144,13 @@ Qualys Authentication Scan: **STEP 1**
 
 <img src="Qualys Folder Pics/Q 17.png">
 
-Qualys Authentication Scan: **STEP 2**
-
+Qualys Authentication Scan: **STEP 3**
 - Type the private IPs from your VM that matches your OS.
 - Select the Save button when finish.
 
 <img src="Qualys Folder Pics/Q 18.png">
 
-Qualys Authentication Scan: **STEP 3**
-
+Qualys Authentication Scan: **STEP 4**
 - Repeat the same scanning steps for the authenticated VM.
 - The only difference is to name the title with “Authenticated” to distinguish from the unauthenticated scan.
 - For example, I will name my scan to “Authenticated Azure WindowsVM”.
@@ -177,8 +161,7 @@ Qualys Authentication Scan: **STEP 3**
 
 <img src="Qualys Folder Pics/Q 10.png">
 
-Qualys Authentication Scan: **STEP 4**
-
+Qualys Authentication Scan: **STEP 5**
 - In my scan of my Authenticated Windows VM, I have a summary of 310 vulnerabilities with an average security risk of 5.0.
 - I have 9 vulnerabilities that have a severity level of 2, 34 vulnerabilities that have a severity level of 3, 45 vulnerabilities that have a severity level of 4, and 13 vulnerabilities that have a severity level of 5.
 - The Windows OS was detected with the specific version, with 15 services detected.
@@ -187,8 +170,6 @@ Qualys Authentication Scan: **STEP 4**
 <img src="Qualys Folder Pics/Q 19.png">
 
 <img src="Qualys Folder Pics/Q 20.png">
-
-Qualys Authentication Scan: **STEP 5**
 
 ### **Conclusion: Authenticated vs. Unauthenticated Scans**
 
