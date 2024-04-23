@@ -23,8 +23,6 @@ Whether you are new to Qualys or looking to integrate it with Azure, this articl
 
 Qualys Code: **STEP 1**
 
-<br/>
-
 - Click on the New button.
 - Click on Scanner Appliance.
 
@@ -35,7 +33,7 @@ Qualys Code: **STEP 2**
 - When you reach this page with your Personalization Code, DO NOT close or go to the next page since you need this code.
 - Open up Azure on a new tab.
 
-![Q 11.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_11.png)
+<img src="Qualys Folder Pics/Q 3.png">
 
 Qualys Code: **STEP 3**
 
@@ -48,14 +46,14 @@ Qualys Code: **STEP 3**
 - Get the Personalization Code from Qualys and put it in the Azure Perscode text box and continue creating the VM.
 - When finished, head back into Qualys.
 
-![Q 9.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_9.png)
+<img src="Qualys Folder Pics/Q 4.png">
 
 Qualys VM: **STEP 1**
 
 - On the Personalization Code page, scroll down and press next until you have reached the same page you see above.
 - Click on the Start Wizard button.
 
-![Q 12.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_12.png)
+<img src="Qualys Folder Pics/Q 5.png">
 
 Qualys VM: **STEP 2**
 
@@ -63,7 +61,7 @@ Qualys VM: **STEP 2**
 - For the Virtualization Platform, we want to choose Microsoft Azure which you can select with the dropdown arrow.
 - When finish click next.
 
-![Q 13.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_13.png)
+<img src="Qualys Folder Pics/Q 6.png">
 
 Qualys VM: **STEP 3**
 
@@ -71,7 +69,7 @@ Qualys VM: **STEP 3**
 - This is the last chance to finish the VM.
 - When finish scroll down and click next.
 
-![Q 14.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_14.png)
+<img src="Qualys Folder Pics/Q 7.png">
 
 Qualys VM: **STEP 4**
 
@@ -79,7 +77,7 @@ Qualys VM: **STEP 4**
 - You can check the status at the Appliances sub-tab.
 - Once finish move on to the next step.
 
-![Q 15.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_15.png)
+<img src="Qualys Folder Pics/Q 8.png">
 
 Qualys VM: **STEP 5**
 
@@ -89,7 +87,7 @@ Qualys VM: **STEP 5**
 - Click on the New drop-down button.
 - Click on the Scan button.
 
-![Q 3.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_3.png)
+<img src="Qualys Folder Pics/Q 9.png">
 
 Qualys Scan: **STEP 1**
 
@@ -99,14 +97,14 @@ Qualys Scan: **STEP 1**
 - BE AWARE, to have a successful scan make sure the machine is turned on.
 - When finished click Launch.
 
-![Q 4.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_4.png)
+<img src="Qualys Folder Pics/Q 10.png">
 
 Qualys Scan: **STEP 2**
 
 - If this is your first time adding the private IP address(es), this page you see above will pop up.
 - Click on Add.
 
-![Q 5.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_5.png)
+<img src="Qualys Folder Pics/Q 11.png">
 
 Qualys Scan: **STEP 3**
 
@@ -115,7 +113,7 @@ Qualys Scan: **STEP 3**
 - The three main statuses are Queue, Running, and Finish.
 - You can safely close this page and head back to the Scans subpage.
 
-![Q 6.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_6.png)
+<img src="Qualys Folder Pics/Q 12.png">
 
 Qualys Scan: **STEP 4**
 
@@ -125,7 +123,7 @@ Qualys Scan: **STEP 4**
 - The View Results will appear when the Scan is finish.
 - When the scan is finish, click on the machine scan and click on View Results.
 
-![Q 7.1.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_7.1.png)
+<img src="Qualys Folder Pics/Q 13.png">
 
 Qualys Scan: **STEP 5**
 
@@ -135,9 +133,9 @@ Qualys Scan: **STEP 5**
 - The 12 vulnerabilities and the 33 other information gathered can be viewed in more detailed by pressing the drop-down buttons that is located in the Detailed Results section.
 - While we got the scan to work this is an unauthenticated scan, so we are not grabbing the full picture of our machine.
 
-![Q 8.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_8.png)
+<img src="Qualys Folder Pics/Q 14.png">
 
-![Screenshot 2024-02-14 174310.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Screenshot_2024-02-14_174310.png)
+<img src="Qualys Folder Pics/Q 15.png">
 
 Qualys Scan: **STEP 6**
 
@@ -148,7 +146,7 @@ Qualys Scan: **STEP 6**
 - Click on the Operating System drop-down button.
 - Click on the appropriate OS, for my case I am choosing the Windows OS.
 
-![Q 16.1.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_16.1.png)
+<img src="Qualys Folder Pics/Q 16.png">
 
 Qualys Authentication Scan: **STEP 1**
 
@@ -158,14 +156,14 @@ Qualys Authentication Scan: **STEP 1**
 - Select both NTLMv2 and NTLMv1.
 - Select IPs from the left list when finish.
 
-![Q 17.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_17.png)
+<img src="Qualys Folder Pics/Q 17.png">
 
 Qualys Authentication Scan: **STEP 2**
 
 - Type the private IPs from your VM that matches your OS.
 - Select the Save button when finish.
 
-![Screenshot 2024-02-14 172617.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Screenshot_2024-02-14_172617.png)
+<img src="Qualys Folder Pics/Q 18.png">
 
 Qualys Authentication Scan: **STEP 3**
 
@@ -175,9 +173,9 @@ Qualys Authentication Scan: **STEP 3**
 - When done press Launch.
 - As the same as the previous steps, when the scan is done click on View Results.
 
-![Q 3.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_3.png)
+<img src="Qualys Folder Pics/Q 9.png">
 
-![Q 4.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Q_4.png)
+<img src="Qualys Folder Pics/Q 10.png">
 
 Qualys Authentication Scan: **STEP 4**
 
@@ -186,9 +184,9 @@ Qualys Authentication Scan: **STEP 4**
 - The Windows OS was detected with the specific version, with 15 services detected.
 - The scan detected 101 vulnerabilities, 4 potential vulnerabilities, and 205 information gathered.
 
-![Screenshot 2024-02-14 174411.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Screenshot_2024-02-14_174411.png)
+<img src="Qualys Folder Pics/Q 19.png">
 
-![Screenshot 2024-02-14 174442.png](How%20To%20Install%20and%20Scan%20in%20Qualys%20with%20Azure%209dbf9714de4b4a249419d3506cd96302/Screenshot_2024-02-14_174442.png)
+<img src="Qualys Folder Pics/Q 20.png">
 
 Qualys Authentication Scan: **STEP 5**
 
