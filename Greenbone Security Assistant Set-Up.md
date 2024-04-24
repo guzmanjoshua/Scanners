@@ -12,7 +12,7 @@ OpenVAS VM: **STEP 1**
 - In the search bar in Marketplace, type ‘OpenVas’.
 - Once ‘OpenVas secured and supported by HOSSTED’ pops up, click on create.
 
-![a OV 1.png](How%20To%20Install%20and%20Scan%20in%20Greenbone%20Security%20Assi%205a55124c91eb456a89e92c5c4b4a5330/a_OV_1.png)
+<img src="Greenbone Folder Pics/OV 1.png">
 
 OpenVAS VM: **STEP 2**
 
