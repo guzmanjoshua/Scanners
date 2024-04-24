@@ -51,6 +51,7 @@ Install OpenVAS: **STEP 4**
 - Once you reached this page, copy and paste the Username and Password from Windows PowerShell into the Greenbone sign in page.
 
 <img src="Greenbone Folder Pics/OV 6.png">
+
 ## Section 3: Creating Host
 
 GSA Host: **STEP 1**
@@ -65,6 +66,7 @@ GSA Host: **STEP 2**
 - In Assets, click on the page with the star under the Dashboards button to create a New Host.
 
 <img src="Greenbone Folder Pics/OV 8.png">
+
 GSA Host: **STEP 3**
 
 - For the IP Address, enter the private IP address of your desire VM.
@@ -80,6 +82,7 @@ GSA Target: **STEP 1**
 - Press the same page with the star under actions of the Hosts you created to create a new target.
 
 <img src="Greenbone Folder Pics/OV 10.png">
+
 GSA Target: **STEP 2**
 
 - Name the target and save.
